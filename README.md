@@ -20,8 +20,8 @@ under every task and a checkpoint cell that tells you whether your code is right
 
 ## Files
 
-- [TNR_treasure_hunt.ipynb](TNR_treasure_hunt.ipynb): the exercise notebook. Start here.
-- [TNR_treasure_hunt_solutions.ipynb](TNR_treasure_hunt_solutions.ipynb): complete solutions, with a table
+- [Exercises on TNR.ipynb](<Exercises on TNR.ipynb>): the exercise notebook. Start here.
+- [Exercises on TNR - solutions.ipynb](<Exercises on TNR - solutions.ipynb>): complete solutions, with a table
   linking each exercise function to its TNRKit.jl counterpart.
 - [tools/build_notebooks.py](tools/build_notebooks.py): generates both notebooks from a single source.
 
@@ -32,13 +32,13 @@ No prior knowledge of TNR is needed; you should be comfortable with Python and n
 
 The easiest way to run the notebook is in Google Colab, where numpy, scipy and matplotlib are already installed:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaridPiceu/Introduction-to-TNR-Exercises/blob/main/TNR_treasure_hunt.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaridPiceu/Introduction-to-TNR-Exercises/blob/main/Exercises%20on%20TNR.ipynb)
 
 To run it locally, install the dependencies and open the notebook in Jupyter or VS Code:
 
 ```bash
 pip install numpy scipy matplotlib jupyter
-jupyter notebook TNR_treasure_hunt.ipynb
+jupyter notebook "Exercises on TNR.ipynb"
 ```
 
 ## Editing the notebooks

@@ -1,4 +1,4 @@
-"""Builds TNR_treasure_hunt.ipynb (exercise) and TNR_treasure_hunt_solutions.ipynb (solutions).
+"""Builds "Exercises on TNR.ipynb" (exercise) and "Exercises on TNR - solutions.ipynb" (solutions).
 
 Usage (from the repo root):  python tools/build_notebooks.py .
 
@@ -427,7 +427,7 @@ Click a stop to sail straight there.
 
 MAP_SOL = r"""## About these solutions
 
-This notebook contains a complete, working solution for every stop of `TNR_treasure_hunt.ipynb`.
+This notebook contains a complete, working solution for every stop of `Exercises on TNR.ipynb`.
 The code follows [TNRKit.jl](https://github.com/QuantumKitHub/TNRKit.jl) (v0.7) closely. The table below lists the counterpart of each function, so you
 can open the package afterwards and recognize what you see.
 
@@ -1784,5 +1784,5 @@ def build(fname, sol):
     print("wrote", OUT / fname)
 
 
-build("TNR_treasure_hunt.ipynb", sol=False)
-build("TNR_treasure_hunt_solutions.ipynb", sol=True)
+build("Exercises on TNR.ipynb", sol=False)
+build("Exercises on TNR - solutions.ipynb", sol=True)
